@@ -1,0 +1,64 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: #1f392c;
+  background-color: #f8f5f0;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1192px;
+}
+
+.header {
+}
+.header__container {
+  display: flex;
+  align-items: center;
+}
+.join-the-creator {
+  margin-left: auto;
+}
+.header-nav {
+  flex: 1;
+  text-align: center;
+}
+.header-nav__item {
+  display: inline-flex;
+  margin-right: 32px;
+}
+
+.hero {
+  position: relative;
+  min-height: 500px;
+  height: calc(100vh - 38px);
+  display: grid;
+}
+.hero__container {
+  margin: auto;
+}
+.hero-decor {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/* 875 × 1635 */
+.is-left {
+  width: 437.5px;
+  left: 0;
+  background-position: left center;
+  background-image: url("./public/hero-left-side.png");
+}
